@@ -1,0 +1,14 @@
+project-root/
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── scripts.js
+│
+├── backend/
+│   ├── src/
+│   │   ├── Main.java
+│   │   └── ...
+│   └── pom.xml (if using Maven)
+│
+├── README.md
+└── .gitignore
