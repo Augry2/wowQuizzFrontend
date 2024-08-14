@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {                            /*edits the list itself*/
+    display: flex;                  /*makes it a row*/
+    list-style-type: none;          /*removes boxes*/
+    padding: 0;                     /*pushes it to the edge of the screen*/
+    margin: 0.5%;                   /*pushes it out from both edges of screen*/
+}
+
+nav ul li {                         /*edits the list items (this does not actually contain the text only the place where the text will be placed)*/
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+nav ul li a {                       /*edits the text*/
+    text-decoration: none;          /* Remove underline from links */
+}
+
+
