@@ -19,4 +19,13 @@ nav ul li a {                       /*edits the text*/
     text-decoration: none;          /* Remove underline from links */
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section table {
+    margin: 0 auto;
+}
 
